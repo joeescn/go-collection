@@ -25,7 +25,7 @@ func main() {
 
 	isProperSubset := diff.IsProperSuperset(ret)
 	if !isProperSubset {
-        fmt.Println(("不同集合", diff.Elements()))
+        	fmt.Println(("不同集合", diff.Elements()))
 	}
 
 	diff.Add("mango")

@@ -30,7 +30,7 @@ func main() {
 
 	diff.Add("mango")
 	if diff.IsProperSubset(ret) {
-        fmt.Println(("不同集合", diff.Elements()))
+		fmt.Println(("不同集合", diff.Elements()))
 	}
 }
 ```
